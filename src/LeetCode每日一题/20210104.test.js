@@ -21,7 +21,7 @@ var fib = function(n) {
     return prve;
 };
 
-describe('较大分组的位置', () => {
+describe('斐波那契数', () => {
     test('while循环', () => {
         expect(largeGroupPositionsLoop("")).toStrictEqual([]);
         expect(largeGroupPositionsLoop("abaa")).toStrictEqual([]);
